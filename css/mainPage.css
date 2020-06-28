@@ -1,6 +1,9 @@
 html {
     scroll-behavior: smooth;
   }
+  body{
+    overflow-x: hidden;
+}
 *{
     box-sizing: border-box;
 }
@@ -213,9 +216,22 @@ li{
         font-size: 12px;
     }
 }
-@media only screen and (max-width : 350px){
-    .header-content-button{
-        font-size: 12px;
-    }
-  
+@media only screen and (max-width : 700px){
+.footer-h {
+    font-size: 30px;
+}
+.footer-form{
+    padding-top: 10vh;
+    text-align: left;
+    padding-left: 30vw
+
+}
+.form-input {
+    height: 15vh;
+    width: 30vh;
+}
+.footer-labl{
+    width: 30vw;
+}
+
 }
