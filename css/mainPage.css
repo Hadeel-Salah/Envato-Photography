@@ -11,17 +11,19 @@ html {
 
 .header-button{
     margin-left: 5vw;
-    width: 15vw;
-    height: 6vh;
     background-color: #F3D900 !important ;
-    font-weight: 1000;
-
-    
-
+    font-weight: 1000; 
+    width: 190px;
+    height: 50px;
 
 }
 a{
     text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    opacity: 0.7;
+    color:#F3D900
 }
 li{
     list-style: none;
@@ -51,6 +53,12 @@ li{
 /* *****Header content *****/
 #content{
     position: relative;
+    background-image: url('../images/first.png');
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    
 
 }
 .header-content-top-left{
@@ -78,8 +86,8 @@ li{
     border-radius: 10px;
     line-height: 26px;
     color: #212121;
-    width: 22vw;
-    height: 9vh;
+    width:400px;
+    height: 67px;
     background-color: #F3D900 !important ;
     font-weight: 1000;
     font-size: 2em;
@@ -92,8 +100,11 @@ li{
 }
 .about-content > img{
     float: right;
-    padding: 100px 100px 100px 100px;
-    height: 130vh;
+    margin-top: 99px;
+    margin-right: 300px;
+    height: 500px;
+    width: 400px;
+
 
    
 }
@@ -107,8 +118,8 @@ li{
 }
 
 .about-content .about-button{
-    width: 22vw;
-    height: 9vh;
+    width:400px;
+    height: 67px;
     background-color: #F3D900 !important ;
     font-weight: 1000;
     margin-top: 50vh;
@@ -141,16 +152,7 @@ li{
     clear: both;
     display: table;
   }
-.arrow {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-  }
-.down {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-  }
+
 .photos-p{
     float: right;
     position: absolute;
@@ -199,37 +201,33 @@ li{
 .form-input {
     height: 15vh;
 }
+.footer-content-button{
+    width:300px;
+    background-color: #F3D900;
+    height: 40px;
+    font-weight: 1000;
+}
 
 @media only screen and (max-width : 1000px){
     .header-content-title{
-        top: -10vh;
-        font-size: 2em;
+        top: -30vh;
+        font-size: 35px;
     }
     .header-p{
-        font-size: 1.3em;
-        width: 450px;
+        font-size: 22px;
+        width: 330px;
         text-align: left;
-    
-    }
-    .header-content-button{
-        width: 25vw;
-        height: 10vh;
-        font-weight: 1000;
-        font-size: 1em;
-        margin-left: 3vw;
+        top: -20vh;
 
     
     }
-    .about-content > img{
-        float: right;
-        height: 100vh;
-    
-       
+    .header-content-button{
+        width: 300px;
+        height: 50px;  
+        margin-top: -30vh;
+  
     }
-    #about .about-content h1{
-        font-size: 2em;
     
-    }
     #hire{
         margin-top: -30vh;
     
@@ -264,64 +262,63 @@ li{
         margin-left: -10vw; 
        }
  
-    .footer-h {
+       .footer-h {
         font-size: 30px;
     }
     .footer-form{
         padding-top: 10vh;
         text-align: left;
-        padding-left: -20vw;
-    
+        padding-left: 20vw
+
     }
     .form-input {
-        height: 15vh;
-        width: 30vh;
+        height: 20vh;
+        width: 50vh;
     }
     .footer-labl{
-        width: 30vw;
+        width: 300px;
+    }
+    .footer-content-button{
+        width:300px;
+        background-color: #F3D900;
+        height: 40px;
+        font-weight: 1000;
     }
 }
 @media only screen and (max-width : 700px){
     .header-content-title{
-        top: -10vh;
-        font-size: 1.5em;
+        top: -30vh;
+        font-size: 35px;
     }
     .header-p{
-        font-size: 1em;
-        width: 300px;
+        font-size: 22px;
+        width: 330px;
         text-align: left;
-    
-    }
-    .header-content-button{
-        width: 20vw;
-        height: 5vh;
-        font-weight: 1000;
-        font-size: 0.9em;
-        margin-left: 3vw;
+        top: -20vh;
 
     
     }
     .about-content > img{
-        float: right;
-        height: 100vh;
-    
-       
+        height: 650px;
+        width: 400px;  
     }
-    #about .about-content h1{
-        font-size: 2em;
-        margin-top: 10vw;
-    
-    }
+    .about-content{
+        padding-top: 300px; 
+        margin-left: 300px;    }
+   
     
     .about-content .about-button{
-        width: 25vw;
-        height: 5vh;
-        margin-top: -20vh;
-        font-size: 0.5em;
-        margin-left: 6vw;
+        width:200px;
+        height: 67px;
+        background-color: #F3D900 !important ;
+        font-weight: 1000;
+        margin-top: 50vh;
+        font-size: 1.5em;
     
     
     }
+ 
+   
     
     #photos{
         width: 100%;
@@ -344,25 +341,31 @@ li{
         margin-top: -100vh;
     
     }
-.hire-h1-centered {
-    font-size: 1.3em;
-    margin-top: 60px;
+    .hire-h1-centered {
+        font-size: 1.3em;
+        margin-top: 60px;
+        }
+    .footer-h {
+        font-size: 30px;
     }
-.footer-h {
-    font-size: 30px;
-}
-.footer-form{
-    padding-top: 10vh;
-    text-align: left;
-    padding-left: 30vw
+    .footer-form{
+        padding-top: 10vh;
+        text-align: left;
+        padding-left: 20vw
 
-}
-.form-input {
-    height: 15vh;
-    width: 30vh;
-}
-.footer-labl{
-    width: 30vw;
-}
+    }
+    .form-input {
+        height: 20vh;
+        width: 50vh;
+    }
+    .footer-labl{
+        width: 300px;
+    }
+    .footer-content-button{
+        width:300px;
+        background-color: #F3D900;
+        height: 40px;
+        font-weight: 1000;
+    }
 
 }
