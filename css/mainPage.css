@@ -21,6 +21,7 @@ li{
     font-weight: bold;
     font-size: 32px;
     line-height: 37px;
+
     
 }
 #nav-link{
@@ -35,23 +36,33 @@ li{
     width: 15vw;
     height: 6vh;
     background-color: #F3D900 !important ;
+    font-weight: 1000;
+
+    
+
 
 }
 
 
 /* *****Header content *****/
-.header-content{
-    color: white;
+#content{
     position: relative;
+
+}
+.header-content-top-left{
+    color: white;
+    position: absolute;
+    top: 100vh;
+    left: 4vw;
 
 }
 .header-content-title{
     font-weight: 500;
     font-size: 50px;
-    line-height: 59px;  
     color: white;
     font-weight: 1000;
     position: absolute;
+    top: -13vh;
 }
 .header-content-text{
     font-weight: normal;
@@ -61,13 +72,122 @@ li{
 }
 .header-content-button{
     border-radius: 10px;
-    font-weight: bold;
-    font-size: 22px;
     line-height: 26px;
     color: #212121;
-    width: 20vw;
-    height: 7vh;
+    width: 22vw;
+    height: 9vh;
     background-color: #F3D900 !important ;
+    font-weight: 1000;
+    font-size: 2em;
 
+}
+#about .about-content{
+    position: relative;
+    margin-left: 10vw;
+    justify-content: center;
+}
+.about-content > img{
+    float: right;
+    padding: 100px 100px 100px 100px;
+    height: 130vh;
+
+   
+}
+#about .about-content h1{
+    float: left;
+    font-size: 3em;
+    font-weight: 1000;
+    position: absolute;
+    margin-top: 30vh;
+
+}
+
+.about-content .about-button{
+    width: 22vw;
+    height: 9vh;
+    background-color: #F3D900 !important ;
+    font-weight: 1000;
+    margin-top: 50vh;
+    font-size: 1.5em;
+
+
+}
+
+#photos{
+    width: 100%;
+    height: 100vh;
+    padding-top: 60vh;
+    position: relative;
+}
+.about-content p{
+    position: relative;
+    width: 50vw;
+    top: 40vh;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+.photos-p{
+    float: right;
+    position: absolute;
+    right: 2vw;
+    padding-top: 4vh;
+}
+  
+#hire{
+    position: relative;
+    padding-top: 120vh;
+}
+.hire-h1-centered {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    font-weight: 1000;
+    margin-top: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.photos-nav li{
+    font-weight: 10;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav-link hr{
+    border: none;
+}
+.active hr{
+    border-top: 2px solid #F3D900;
+    margin-top: 0;
+}
+.footer-h {
+    font-size: 3em;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer-form{
+    padding-top: 10vh;
+}
+.form-input {
+    height: 15vh;
 }
 
