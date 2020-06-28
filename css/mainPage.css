@@ -64,7 +64,7 @@ li{
 .header-content-top-left{
     color: white;
     position: absolute;
-    top: 50vh;
+    top: 30vh;
     left: 4vw;
 
 }
@@ -95,6 +95,7 @@ li{
 }
 #about{
     padding-top: 700px;
+    margin-left: -50px;
 }
 .about-content > img{
     float: right;
