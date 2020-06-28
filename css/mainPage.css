@@ -93,18 +93,11 @@ li{
     font-size: 2em;
 
 }
-#about .about-content{
-    position: relative;
-    margin-left: 10vw;
-    justify-content: center;
+#about{
+    padding-top: 700px;
 }
 .about-content > img{
     float: right;
-    margin-top: 99px;
-    margin-right: 300px;
-    height: 500px;
-    width: 400px;
-
 
    
 }
