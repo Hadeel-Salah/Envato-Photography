@@ -153,7 +153,60 @@ li{
   
   
 }
-@media only screen and (max-width : 700px){
+@media only screen and (max-width : 400px){
+    .header-content-title{
+        top: -1vh;
+        font-size: 22px;
+    }
+    .header-p{
+        font-size: 16px;
+        top: 5vh;
+        width: 200px;
+    
+    }
+    .header-content-button{
+        width: 150px;
+        height: 30px;  
+        margin-top: 5vh;
+        font-size: 12px;
+  
+    }
+    .about-button{
+        color: #212121;
+        width:200px;
+        height: 40px;
+        background-color: #F3D900 !important ;
+        font-weight: 1000;
+        font-size: 1em;
+        margin-top: 50vh;
+    }
+    .hire-h1-centered{
+        top: 30px;
+        left: -40px;
+        font-size: 10px;
+        margin-top: 30px;
+
+    }
+    .footer-h {
+        font-size: 30px;
+    }
+    .footer-form{
+        padding-top: 10vh;
+        text-align: left;
+        padding-left: 20vw
+
+    }
+    .form-input {
+        height: 200px;
+        width: 220px;
+    }
+    .footer-labl{
+        width: 220px;
+    }
+    .footer-content-button{
+        width: 220px;
+    }
+
    
   
     
