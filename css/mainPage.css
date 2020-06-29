@@ -3,20 +3,13 @@ html {
   }
   body{
     overflow-x: hidden;
+    font-family:'Montserrat', sans-serif;
+
 }
 *{
     box-sizing: border-box;
 }
 
-
-.header-button{
-    margin-left: 5vw;
-    background-color: #F3D900 !important ;
-    font-weight: 1000; 
-    width: 190px;
-    height: 50px;
-
-}
 a{
     text-decoration: none;
 }
@@ -44,9 +37,15 @@ li{
     line-height: 21px;
 
 }
-.image{
-    height: 100vh;
-    width: 100%;
+
+
+.header-button{
+    margin-left: 5vw;
+    background-color: #F3D900 !important ;
+    font-weight: 1000; 
+    width: 190px;
+    height: 50px;
+
 }
 
 
@@ -93,84 +92,33 @@ li{
     font-size: 2em;
 
 }
-#about{
-    padding-top: 700px;
-    margin-left: -10px;
-}
 .about-content > img{
     float: right;
 
    
 }
-#about .about-content h1{
-    float: left;
-    font-size: 3em;
-    font-weight: 1000;
-    position: absolute;
-    margin-top: 30vh;
-
-}
-
-.about-content .about-button{
+.about-button{
+    color: #212121;
     width:400px;
     height: 67px;
     background-color: #F3D900 !important ;
     font-weight: 1000;
+    font-size: 2em;
     margin-top: 50vh;
-    font-size: 1.5em;
-
-
-}
-
-#photos{
-    width: 100%;
-    height: 100vh;
-    padding-top: 60vh;
-    position: relative;
-}
-.about-content p{
-    position: relative;
-    width: 50vw;
-    top: 40vh;
-}
-
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-  }
-  
-  /* Clearfix (clear floats) */
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-.photos-p{
-    float: right;
-    position: absolute;
-    right: 2vw;
-    padding-top: 4vh;
 }
   
 #hire{
     position: relative;
-    padding-top: 100vh;
+    top: 70%;
 
 }
-.hire-image{
-    width: 100%;
-    height: 50vh;
-}
+
+
 .hire-h1-centered {
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 200px;
+    left: 450px;
     font-size: 3em;
     font-weight: 1000;
-    margin-top: 10%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .photos-nav li{
@@ -222,15 +170,6 @@ li{
   
     }
     
-    #hire{
-        margin-top: -30vh;
-    
-    }
-    .hire-h1-centered {
-        font-size: 1.3em;
-        margin-top: 100px;
-    }
-    
     .about-content .about-button{
         width: 25vw;
         height: 5vh;
@@ -280,32 +219,36 @@ li{
     }
 }
 @media only screen and (max-width : 700px){
-    .header-content-title{
-        top: -30vh;
-        font-size: 35px;
-    }
-    .header-p{
-        font-size: 22px;
-        width: 330px;
-        text-align: left;
-        top: -20vh;
-
+    
+   .header-all{
+       margin-left: 10px;
+   }
+    .header-content-button{
+        border-radius: 1px;
+        color: #212121;
+        font-weight: 1000;
+        font-size: 1em;
+        margin-left: 15px;
     
     }
 
-    .about-content{
-        padding-top: 10px;
+    .header-content-title{
+        margin-left: 15px;
+        font-size: 35px;
+
     }
-    .about-content > img{
-        height: 250px;
-        width:300px;  
+
+    .container-about > img{
+        width: 200px;
+       
     }
     .about-content{
         margin-left: -10px;  
   } 
-    .about-content .about-button{
+   .about-button{
         width:200px;
-        height: 67px;
+        height: 50px;
+        font-size: 15px;
     
     
     }
