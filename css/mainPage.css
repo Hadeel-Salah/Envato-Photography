@@ -364,3 +364,110 @@ li{
     }
 
 }
+/*** for mobile view**/
+@media only screen and (max-width : 550px){
+    .header-content-title{
+        top: -1vh;
+        font-size: 22px;
+    }
+    .header-p{
+        font-size: 16px;
+        top: 5vh;
+        width: 200px;
+    
+    }
+    .header-content-button{
+        width: 150px;
+        height: 30px;  
+        margin-top: 5vh;
+        font-size: 12px;
+  
+    }
+    .about-content > img{
+        height: 250px;
+        width:300px;  
+        max-width: 100%;
+    }
+    .about-content{
+        margin-left: -10px;  
+  } 
+    .about-content .about-button{
+        width:250px;
+        height: 67px;
+    
+    
+    }
+
+    .about-p-h > h1{
+       position: relative;
+       margin-top: -10px;
+
+}
+    .about-p-h{
+        margin-top: -100px;
+        margin-left: 30px;
+
+    }
+    .about-p-h p{
+        width: 300px;
+    }
+    .about-content > img{
+        margin-left: 30px;
+    }
+        
+    #photos{
+        width: 100%;
+        height: 100vh;
+        padding-top: 10vh;
+       
+    }
+    .photos-contanier{
+        display: flex;
+        flex-direction: column;
+    }
+    div > img{
+        width: 100px;
+        height: 160px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding: 10px
+
+        
+    }
+    
+    .photos-p{
+        float: right;
+        position: absolute;
+        right: 2vw;
+        padding-top: 10vh;
+        flex-direction: column;
+    }
+    #hire{
+        margin-top: -40px;
+    
+    }
+    .hire-h1-centered {
+        font-size: 1em;
+        margin-top: 100px;
+        }
+    .footer-h {
+        font-size: 30px;
+    }
+    .footer-form{
+        padding-top: 10vh;
+        text-align: left;
+        padding-left: 20vw
+
+    }
+    .form-input {
+        height: 200px;
+        width: 220px;
+    }
+    .footer-labl{
+        width: 220px;
+    }
+    .footer-content-button{
+        width: 220px;
+    }
+
+}
