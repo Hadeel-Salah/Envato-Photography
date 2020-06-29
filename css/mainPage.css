@@ -18,6 +18,10 @@ a:hover{
     opacity: 0.7;
     color:#F3D900
 }
+.photos-h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 1000;
+}
 li{
     list-style: none;
     padding-left: 1vw;
